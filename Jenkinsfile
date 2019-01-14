@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        build 'ttt'
         echo 'coucou'
       }
     }
